@@ -1,0 +1,142 @@
+input{
+    border-radius: 8px;
+    padding: 5px 5px;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.FormHeader{
+    font-size: x-large;
+    padding: 20px;
+}
+
+.FormLabel{
+    display: block;
+    margin-left: 25px;
+    font-size:medium;
+    font-weight: bold;
+}
+
+.NavigationButtons{
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+
+.NavigationButtons > button{
+    background-color: darkgreen;
+    border-radius: 8px;
+    width: 80px;
+    height: 40px;
+    border: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.NavigationButtons > button:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+.AddButtons{
+    margin-left: 30px;
+}
+
+.AddButtons > button{
+    background-color: darkgreen;
+    border-radius: 8px;
+    width: 80px;
+    border: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.AddButtons > button:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+.RemoveButtons{
+    margin-left: 30px;
+}
+
+.RemoveButtons > button{
+    background-color: darkred;
+    border-radius: 8px;
+    width: 80px;
+    border: none;
+    color: white;
+    margin-top: 60px;
+}
+
+.RemoveButtons > button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.ValidationWrapper{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 25px;
+    box-shadow: 2px 2px 10px 5px darkgray;
+    background-color: whitesmoke;
+    width: 50%;
+
+}
+.ValidatoinWrapper > div{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.ValidationWrapper > div > input{
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.LeadEntryWrapper{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 50%;
+
+}
+.LeadEntryWrapper > div{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.LeadEntryWrapper > div > input{
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.LeadReview{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 25px;    
+}
+.LeadReviewData{
+    width: 40%;
+}
+.LeadReviewJSON{
+    width: 40%;
+}
+
+.LeadValidationWrapper{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 25px;
+    box-shadow: 2px 2px 10px 5px darkgray;
+    background-color: whitesmoke;
+   
+
+}
+.LeadValidationWrapper > div{
+    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-left: 10px;
+}

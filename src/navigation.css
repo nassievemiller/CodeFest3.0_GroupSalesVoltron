@@ -1,0 +1,31 @@
+.navigation_wrapper {
+    display: flex;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.navigation_item{
+    padding: 5px;
+}
+
+.navigation_item:hover{
+    cursor: pointer;
+}
+
+.current_page {
+    font-weight: bold;
+    font-size: larger;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 2px;
+}
+
+.non_current_page {
+    text-align: center;
+    padding: 2px;
+}
+
+.non_current_page:hover{
+    color: white;
+    font-weight: bold;
+}
